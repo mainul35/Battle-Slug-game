@@ -154,7 +154,6 @@ public class GenerateRandomSlugs {
     public byte[][] setSlugsToButtons(byte[][] vals, HashMap<String, Integer> hm) {
         for (Map.Entry<String, Integer> m : hm.entrySet()) {
             StringTokenizer stk = new StringTokenizer(m.getKey());
-            // System.out.println(m.getKey()+"\t"+m.getValue());
             vals[Integer.parseInt(stk.nextToken())][Integer.parseInt(stk.nextToken())] = Byte
                     .parseByte(m.getValue().toString());
         }
