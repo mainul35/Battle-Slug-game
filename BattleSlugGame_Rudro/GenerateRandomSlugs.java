@@ -3,19 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ddoocp72;
+package BattleSlugGame;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Random;
 import java.util.StringTokenizer;
+
 
 /**
 *
 * @author Mainul35
 *
 */
-
 public class GenerateRandomSlugs {
 
     private static int i = 1;	//count the number of segments in each block of grids.
